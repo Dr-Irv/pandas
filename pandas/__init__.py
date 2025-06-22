@@ -229,6 +229,7 @@ Here are just a few of the things that pandas does well:
   - Time series-specific functionality: date range generation and frequency
     conversion, moving window statistics, date shifting and lagging.
 """
+from pandas.tseries.offsets import YearEnd
 
 # Use __all__ to let type checkers know what is part of the public API.
 # Pandas is not (yet) a py.typed library: the public API is determined
@@ -277,6 +278,7 @@ __all__ = [
     "UInt16Dtype",
     "UInt32Dtype",
     "UInt64Dtype",
+    "YearEnd",
     "api",
     "array",
     "arrays",

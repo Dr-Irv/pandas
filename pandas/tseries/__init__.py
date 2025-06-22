@@ -10,3 +10,7 @@ if TYPE_CHECKING:
 
     # and mark only those modules as public
     __all__ = ["frequencies", "offsets"]
+
+from pandas.tseries.offsets import YearEnd
+
+__all__ = ["YearEnd"]
